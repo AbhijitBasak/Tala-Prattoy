@@ -27,7 +27,7 @@ export default function Footer() {
     <footer className="bg-[#1e1e1e] text-white py-16 px-6 lg:px-24">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row gap-12 justify-between">
         {/* Left Column */}
-        <div className="w-full h-auto md:w-1/3 bg-[#373737]">
+        <div className="w-full h-full md:w-1/3 bg-[#373737] p-12">
           <div className="mb-4">
             <div className="text-2xl font-bold text-white">Tala Prattoy</div>
           </div>
