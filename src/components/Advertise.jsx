@@ -17,7 +17,7 @@ export default function Advertise() {
         </div>
 
         {/* Right Column: Button */}
-        <div className="md:w-auto my-auto ">
+        <div className="md:w-auto my-auto sm:mx-auto">
           <button className="bg-white text-red-600 font-semibold py-2 px-6 rounded-md hover:bg-gray-200 transition">
             Apply Now
           </button>

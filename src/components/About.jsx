@@ -3,7 +3,7 @@ import about2 from "../assets/about2.png";
 import about3 from "../assets/about3.png";
 export default function About() {
   return (
-    <section className="w-full bg-black text-white py-26 px-4 md:px-10">
+    <section className="w-full bg-black text-white pt-26 px-4 md:px-10">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
 
         {/* Item 1: Heading + Paragraph */}
@@ -38,7 +38,7 @@ export default function About() {
           <img
             src={about2}
             alt="Artwork 2"
-            className="w-full h-auto object-cover"
+            className="w-full h-auto object-cover translate-y-[-23%]"
           />
         </div>
 

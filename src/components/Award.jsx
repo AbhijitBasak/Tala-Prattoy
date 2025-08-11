@@ -16,7 +16,7 @@ export default function Award() {
         </div>
 
         {/* Awards Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-5 gap-48 items-center justify-between">
+        <div className="grid grid-cols-2 md:grid-cols-5 gap-48 md:max-w-7xl mx-auto  items-center justify-between">
           {awards.map((logo, index) => (
             <div key={index}>
               <img

@@ -22,8 +22,8 @@ export default function Gallery() {
   ];
 
   return (
-   <section className="w-full bg-black text-white py-16">
-      <div className="max-w-7xl mx-auto flex flex-col items-center md:space-x-20 space-y-8 md:space-y-0">
+   <section className="w-full bg-black text-white py-16 px-4 md:px-10">
+      <div className="max-w-7xl mx-auto flex flex-col items-center justify-center">
        {/* Header Row */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">Gallery</h2>
@@ -34,7 +34,7 @@ export default function Gallery() {
         </div>
 
         {/* Image Grid Section (Flex-Based 4 Rows) */}
-        <div className="flex flex-col gap-6">
+        <div className="max-w-7xl mx-auto flex flex-col gap-6">
           {/* Row 1: Big Left, Small Right */}
           <div className="flex flex-col md:flex-row gap-6">
             <div className="w-full md:w-2/3 h-80 overflow-hidden rounded-md">

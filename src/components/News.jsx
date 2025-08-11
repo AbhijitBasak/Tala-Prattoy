@@ -53,7 +53,7 @@ export default function News() {
   ];
 
   return (
-    <section className="w-full bg-black text-white py-16">
+    <section className="w-full bg-black text-white py-16 px-4">
       <div className="max-w-7xl mx-auto flex flex-col items-center md:space-x-20 space-y-8 md:space-y-0">
 
         {/* First Row - Heading */}

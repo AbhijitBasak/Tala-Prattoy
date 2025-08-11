@@ -3,7 +3,7 @@ import playcircle from '../assets/playcircle.png'
 
 export default function DiscoverTala() {
   return (
-    <section className="w-full bg-black text-white py-16 px-4 md:px-10">
+    <section className="w-full bg-black text-white py-8 px-4 md:px-10">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center md:space-x-20 space-y-8 md:space-y-0">
 
         {/* Left Column - Video Section */}
